@@ -1,0 +1,134 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#yaLogoInAuth {
+    margin-bottom: 25px;
+}
+
+#auth-form {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -110%);
+    width: max-content;
+}
+
+.ui-form {
+    max-width: 315px;
+    padding: 20px 30px 30px;
+    margin: 50px auto 30px;
+    background: #F8F8F8;
+    border: 4px dashed red;
+}
+
+.ui-form input[type="submit"] {
+    width: 100%;
+    padding: 0;
+    cursor: pointer;
+    line-height: 42px;
+    background: #FFDB4D;
+    border-width: 0;
+    font-family: 'YS Text', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.ui-form p {
+    margin: 0;
+    padding-top: 10px;
+}
+
+.authPage {
+    background-image: url("../images/auth_bg_image.jpg");
+}
+
+.filesPage {
+    background: #F8F8F8;
+}
+
+.userData {
+    width: max-content;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+}
+
+h3 {
+    margin: 0px 5% 0px;
+}
+
+.userFiles {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 10px 5% 0px;
+    border: 4px dashed red;
+}
+
+.userFiles img {
+    width: 60px;
+}
+
+.fileItem:hover p {
+    transition: .3s;
+    color: red;
+}
+
+.fileItem {
+    cursor: pointer;
+    width: max-content;
+    height: max-content;
+    text-align: center;
+    width: 100px;
+    margin: 10px 10px 0 15px;
+}
+
+.fileItem p {
+    margin: 2px 0 10px 0;
+}
+
+.fileName {
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 5px;
+    text-overflow: ellipsis;
+}
+
+#newDir {
+    cursor: pointer;
+    width: 5%;
+    position: absolute;
+    margin: 10px 0 0 0;
+}
+
+h2 {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+h3 a {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+
+h3 a:hover {
+    transition: .3s;
+    color: red;
+}
+
+#login {
+    text-align: -webkit-right;
+}
+
+#login a {
+    text-decoration: none;
+    color: black;
+}
+
+#login a:hover {
+    transition: .3s;
+    color: red;
+}
